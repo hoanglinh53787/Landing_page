@@ -1,0 +1,31 @@
+
+.backend-feature .tcl-btn {
+  margin-top: 55px;
+}
+
+.backend-feature-list {
+  list-style-type: none;
+}
+.backend-feature-list li {
+  font-size: 16px;
+  color: #777777;
+  position: relative;
+  padding-left: 32px;
+}
+.backend-feature-list li + li {
+  margin-top: 16px;
+}
+
+
+.backend-feature-list li::before {
+  content: '';
+  display: block;
+  width: 14px;
+  height: 6px;
+  border-left: 1px solid #d1d1d3;
+  border-bottom: 1px solid #d1d1d3;
+  transform: rotate(-45deg);
+  position: absolute;
+  left: 0;
+  top: 8px;
+}
